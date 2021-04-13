@@ -29,5 +29,29 @@
 7. In HW-2-classification.ipynb:
    - realized **logistic regression from scratch**, log-loss used for learning
    - model **estimated by cross validation with log-loss estimator**, confusion matrix and accuracy, precision, recall, F1 score metrics
+
+## Folder HW-3 contains:
+1. In HW-3-spam-classifier-custom-sklearn-BOW-Multi-vercoriz.ipynb:
+   - classilied spam messages using **custom classifier** and **sklearn GaussianNB** from [SpamAssassin Public Corpus](https://spamassassin.apache.org/old/publiccorpus/).
+   - estemated **2 types of text vectorization**(BOW and multinomial(count of words))
+   - **cross validation used for better model estimation**
+2. In Descriptive_statistics_usage.ipynb:
+      for random and real data
+   - ploted **Probability Density Function(pdf)** and **Cumulative distribution function(cdf)**
+   - canculated(**mean, median, mode, quantiles, interquartile range, sample varience, standard deviation**)
+3. In Custom-LDA-QDA-impl-tested-on-artificial-data.ipynb:
+   - Custom **Quadratic Discriminant Analysis** and **Custom Linear Discriminant Analysis** are used for classification and compared to sklearn models
+4. In Gaussian-process-for-regression.ipynb: 
+   - **Gaussian process** impl for regression with exponentiated quadratic kernel
+
+## Folder NN contains:
+1. In Multilayer_perceptron_for_classification.ipynb and Multilayer_perceptron_for_regression.ipynb:
+   - custom **multilayer perceptron** with backpropagation learning for classification and regression problem
+   - compared with **keras Sequential model**
+   - **TensorBoard** used for visualization workflow
+2. In  Baseline-algorithms.ipynb:
+   - **Random and zero rule baseline algorithms** implemented for regression and classification problems
+      
+
  
 
