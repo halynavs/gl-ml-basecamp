@@ -50,8 +50,7 @@ def load_planar_dataset():
         X[ix] = np.c_[r*np.sin(t), r*np.cos(t)]
         Y[ix] = j
         
-    X = X.T
-    Y = Y.T
+
 
     return X, Y
 
