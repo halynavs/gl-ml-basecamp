@@ -51,7 +51,36 @@
    - **TensorBoard** used for visualization workflow
 2. In  Baseline-algorithms.ipynb:
    - **Random and zero rule baseline algorithms** implemented for regression and classification problems
-      
 
+## Folder HW-4 contains:
+1. In [LogReg_with_NN_logic_for_image_classif.ipynb](https://github.com/halynavs/gl-ml-basecamp/blob/hw-4/HW-4/LogReg_with_NN_logic_for_image_classif.ipynb):
+   - impl **image classification by Logistic Regression**
+2. In [HW-4-Testing-activ-func-on-specific-data.ipynb](https://github.com/halynavs/gl-ml-basecamp/blob/hw-4/HW-4/HW-4-Testing-activ-func-on-specific-data.ipynb):
+   - Implemented a 2-class classification neural network with a single hidden layer
+   - Used units with a non-linear activation function, ReLu, Sigmoid, Tanh
+   - Computed the cross entropy loss
+   - Implementd forward and backward propagation
+3. In [HW-4-ReLU-flower-data-classif.ipynb][1], [HW-4-Sigmoid-flower-data-classif.ipynb][2], [HW-4-Tanh-flower-data-classif.ipynb][3]:
+   - **ReLu, Sigmoid, Tanh activation funcs tested on different data: noisy_circles, noisy_moon, blobs, gaussian_quantiles**
+  ![alt text](https://github.com/halynavs/gl-ml-basecamp/blob/hw-4/HW-4/images/act_funcs.png)
+4. In [HW-4-Building-funcs-for-DNN.ipynb](https://github.com/halynavs/gl-ml-basecamp/blob/hw-4/HW-4/HW-4-Building-funcs-for-DNN.ipynb):
+   - impl funcs for creating deep NN
+5. In [HW-4-Deep-Neural-Network-Application.ipynb](https://github.com/halynavs/gl-ml-basecamp/blob/hw-4/HW-4/HW-4-Deep-Neural-Network-Application.ipynb):
+   - created a two-layer neural network
+   - created an **L-layer neural network**
+   This models are used to classify cat vs non-cat images
+6. In [Logic-Of-Decision-Tree-Classifier.ipynb](https://github.com/halynavs/gl-ml-basecamp/blob/hw-4/HW-4/Logic-Of-Decision-Tree-Classifier.ipynb):
+   - impl logic of Decision Tree Classifier from scratch
+7. In [HW-4-Comparison-LR-LRpoly-DT-DTpoly-OptDT.ipynb]():
+   - created comparision between 5 models for classification on artificial data.
+      Model are used:
+        * Linear Regression
+        * Linear Regression with 5 degree polynomial feature engineering
+        * Decision Tree
+        * Decision Tree with 5 degree polynomial feature engineering
+        * Optimal Decision Tree with choosen by GridSearchCV best criterion and depth of tree
+  ![alt text](https://github.com/halynavs/gl-ml-basecamp/blob/hw-4/HW-4/images/decision_tree_vs_logreg.png)
  
-
+[1]: https://github.com/halynavs/gl-ml-basecamp/blob/hw-4/HW-4/HW-4-ReLU-flower-data-classif.ipynb
+[2]: https://github.com/halynavs/gl-ml-basecamp/blob/hw-4/HW-4/HW-4-Sigmoid-flower-data-classif.ipynb
+[3]: https://github.com/halynavs/gl-ml-basecamp/blob/hw-4/HW-4/HW-4-Tanh-flower-data-classif.ipynb
